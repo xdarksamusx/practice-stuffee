@@ -6,17 +6,6 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   const [cities, setCities] = useState(["london", "paris"]);
-  const [value, setValue] = useState("");
-
-  const handleChange = (e) => {
-    setValue(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setCities([...cities, value]);
-    setValue("");
-  };
 
   return (
     <div>

@@ -17,7 +17,7 @@ export default function NavBar() {
     setValue("");
   };
 
-  console.log("myyyy");
+  console.log("wrerewerw");
 
   return (
     <div>
