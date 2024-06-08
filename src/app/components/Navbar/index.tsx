@@ -17,8 +17,10 @@ export default function NavBar() {
     setValue("");
   };
 
-  console.log("wrerewerw");
-
+   console.log("myyyfddfssdfy");
+  console.log("howdy");
+   console.log("wrerewerw");
+ 
   return (
     <div>
       <form onSubmit={handleSubmit}>
